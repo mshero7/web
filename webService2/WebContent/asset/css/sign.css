@@ -1,0 +1,325 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+@import
+	url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700,800&subset=korean')
+	;
+
+@import
+	url('https://fonts.googleapis.com/css?family=Do+Hyeon&subset=korean');
+
+@import
+	url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700')
+	;
+
+@import
+	url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700&subset=korean')
+	;
+
+input[type="password"]::-ms-reveal, input[type="password"]::-ms-clear {
+	display: none;
+}
+
+body {
+	font-family: 'Titillium Web', 'Do Hyeon', 'Nanum Myeongjo';
+	width: 100%;
+	height: 100%;
+	/* 	min-width: 33.3333%; */
+	overflow: scroll;
+	overflow-x: hidden;
+}
+/* Removing this since I'll add it myself for browser compatibility */
+input[type="email"], input[type="text"], input[type="password"], input[type="checkbox"],
+	input[type="date"], input[type="reset"], input[type="submit"], input[type="button"]
+	{
+	-webkit-border-top-left-radius: 360px;
+	-moz-border-top-left-radius: 360px;
+	-ms-border-top-left-radius: 360px;
+	border-top-left-radius: 360px;
+	-webkit-border-top-right-radius: 360px;
+	-moz-border-top-right-radius: 360px;
+	-ms-border-top-right-radius: 360px;
+	border-top-right-radius: 360px;
+	-webkit-border-bottom-left-radius: 360px;
+	-moz-border-bottom-left-radius: 360px;
+	-ms-border-bottom-left-radius: 360px;
+	border-bottom-left-radius: 360px;
+	-webkit-border-bottom-right-radius: 360px;
+	-moz-border-bottom-right-radius: 360px;
+	-ms-border-bottom-right-radius: 360px;
+	border-bottom-right-radius: 360px;
+}
+
+input[type="email"], input[type="text"], input[type="checkbox"], input[type="date"],
+	input[type="password"] {
+	/* 	color: #cccccc !important; */
+	padding-left: 5em !important;
+	font-family: 'Titillium Web', 'Do Hyeon', 'Nanum Myeongjo' !important;
+	font-
+}
+
+input:disabled, input[readonly], textarea:disabled, textarea[readonly] {
+	background-color: #e6e6e6a1 !important;
+}
+
+input[type="reset"], input[type="submit"], input[type="button"] {
+	/* 	font-family: 'Do Hyeon', 'Titillium Web',"Open Sans" !important; */
+	width: 100%;
+	background-color: #64b39a;
+	color: white;
+	border: 0;
+	padding: 8px;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+
+.font {
+	/* 	padding-left: ; */
+	font-family: 'Titillium Web', 'Do Hyeon', "Open Sans" !important;
+	font-size: 1.0rem !important;
+	transform: translateY(-5%) !important;
+}
+
+input[type="reset"]:hover, input[type="submit"]:hover, input[type="button"]:hover
+	{
+	/*   background-color: #D2D7D3; */
+	background-color: #e6e6e6;
+}
+
+label {
+	display: inline;
+	position: absolute;
+	top: 0.65em;
+	left: 2.3em;
+	color: #999999;
+}
+
+div.signUpColor {
+	/* 	color: #cccccc !important; */
+	margin: 0 auto;
+}
+
+#my_container>form>div>div>div.row {
+	margin-bottom: 3%;
+}
+
+form.signUp {
+	transform: translateY(15%) !important;
+	margin-bottom: 10%;
+}
+
+form#signForm {
+/* 	position: relative; */
+/* 	top: 50% !important; */
+	/*   -webkit-transform: translateY(-50%); */
+	/*   -ms-transform: translateY(-50%); */
+	transform: translateY(50%) !important;
+}
+
+form {
+	position: relative;
+	top: 50% !important;
+	/*   -webkit-transform: translateY(-50%); */
+	/*   -ms-transform: translateY(-50%); */
+	transform: translateY(45%);
+}
+
+form .row .row {
+	margin: 0 -0.9375rem;
+}
+
+.signRow {
+	/* 	margin-left: 0px !important; */
+	/* 	margin-right: 0px !important; */
+	margin: 0 auto !important;
+}
+
+@media ( min-width : 768px) {
+}
+
+body {
+	color: #999999;
+	background-image:
+		url("http://www.migloo.be/labs/lab1/img/background.jpg");
+	background-size: cover;
+}
+
+p.intro1, p.intro2 {
+	text-align: center;
+	color: white;
+	font-size: 0.9em;
+	margin-bottom: 40px;
+	font-family: 'Titillium Web', 'Do Hyeon', "Open Sans";
+}
+
+p.intro2 {
+	opacity: 0;
+}
+
+.wrapper, .morphHeader {
+	font-family: 'Titillium Web', 'Do Hyeon', "Montserrat", Helvetica, Arial,
+		sans-serif;
+	background-color: #e9ecef00;
+	-webkit-border-top-left-radius: 6px;
+	-moz-border-top-left-radius: 6px;
+	-ms-border-top-left-radius: 6px;
+	border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	-moz-border-top-right-radius: 6px;
+	-ms-border-top-right-radius: 6px;
+	border-top-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-moz-border-bottom-left-radius: 6px;
+	-ms-border-bottom-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-bottom-right-radius: 6px;
+	-ms-border-bottom-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	box-shadow: 2px 2px 20px #cacaca;
+	font-weight: 700;
+}
+
+.header, .footer, .morphHeader {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.header, .morphHeader {
+	-webkit-border-top-left-radius: 6px;
+	-moz-border-top-left-radius: 6px;
+	-ms-border-top-left-radius: 6px;
+	border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	-moz-border-top-right-radius: 6px;
+	-ms-border-top-right-radius: 6px;
+	border-top-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 0;
+	-moz-border-bottom-left-radius: 0;
+	-ms-border-bottom-left-radius: 0;
+	border-bottom-left-radius: 0;
+	-webkit-border-bottom-right-radius: 0;
+	-moz-border-bottom-right-radius: 0;
+	-ms-border-bottom-right-radius: 0;
+	border-bottom-right-radius: 0;
+	font-size: 1.7em;
+	/*   background-image: url("http://www.migloo.be/labs/lab1/img/backgroundBox.png"); */
+	background-color: #64b39a;
+	padding: 2em;
+	color: white;
+}
+
+.username {
+	padding-top: 1.25rem;
+}
+
+.submit, .footer {
+	padding-bottom: 1.25rem;
+}
+
+.morphButton {
+	z-index: 999;
+	-webkit-border-top-left-radius: 360px;
+	-moz-border-top-left-radius: 360px;
+	-ms-border-top-left-radius: 360px;
+	border-top-left-radius: 360px;
+	-webkit-border-top-right-radius: 360px;
+	-moz-border-top-right-radius: 360px;
+	-ms-border-top-right-radius: 360px;
+	border-top-right-radius: 360px;
+	-webkit-border-bottom-left-radius: 360px;
+	-moz-border-bottom-left-radius: 360px;
+	-ms-border-bottom-left-radius: 360px;
+	border-bottom-left-radius: 360px;
+	-webkit-border-bottom-right-radius: 360px;
+	-moz-border-bottom-right-radius: 360px;
+	-ms-border-bottom-right-radius: 360px;
+	border-bottom-right-radius: 360px;
+}
+
+.morphButton, .morphHeader {
+	padding-top: 1px;
+	opacity: 0;
+	background-color: #64b39a;
+	text-align: center;
+}
+
+.loading, .success, .failure {
+	color: white;
+	line-height: 34px !important;
+	text-align: center;
+}
+
+.tooltip p {
+	font-family: 'Titillium Web', 'Do Hyeon', "Open Sans";
+	font-size: 13px;
+	line-height: 16px;
+}
+
+.columns {
+	position: relative;
+	padding-left: 0.94rem !important;
+	padding-right: 0.94rem !important;
+}
+
+.userResult {
+	transform: translateY(60%) !important;
+	text-align: center;
+}
+
+.userResult div div div span {
+	font-size: 1.2rem;
+}
+
+.btnTwo {
+	text-align: center;
+}
+
+.btnTwo input:first-child {
+	margin-right: 5%;
+}
+
+.btnTwo input[type="button"], .btnTwo input[type="submit"], .btnTwo input[type="reset"]
+	{
+	width: 40%;
+}
+
+
+}
+
+.btnTwo2 input[type="submit"], .btnTwo2 input[type="text"] {
+	width: 100% !important;
+}
+
+.btnTwo2 {
+	display: block !important;
+}
+
+@media ( min-width : 768px) {
+	.btnTwo2 input[type="text"] {
+		width: 38%;
+		display:inline-block;
+	}
+	.btnTwo2 input[type="submit"] {
+		width: 20%;
+/* 		display:inline-block; */
+	}
+}
+
+.addInput input, input[typ="text"]{
+	padding-left: 4% !important;
+	width: 75% !important; 
+	display:inline;
+	font-weight: 600 !important;
+}
+
+.addradio {
+	display: inline !important;
+}
+.addtext {
+	display: inline !important;
+	width: 90% !important;
