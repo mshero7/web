@@ -87,7 +87,7 @@
 
 <!-- Custom scripts for map -->
 <script type="text/javascript"
-	src="//dapi.kakao.com/v2/maps/sdk.js?appkey=286f378553f9ff596057e7f9828eee37&libraries=services"></script>
+	src="//dapi.kakao.com/v2/maps/sdk.js?appkey=&libraries=services"></script>
 
 <script>
 	var markers = [];
