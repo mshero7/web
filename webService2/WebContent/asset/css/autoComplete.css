@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+	height: 0%;
+}
+
+.pac-card {
+	/* 	margin: 10px 10px 0 0; */
+	border-radius: 2px 0 0 2px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	/* 	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); */
+	background-color: #fff;
+	font-family: Roboto;
+}
+
+#pac-container {
+	background-color: red;
+	padding-bottom: 12px;
+	margin-right: 12px;
+}
+
+.pac-controls {
+	display: inline-block;
+	padding: 5px 11px;
+}
+
+.pac-controls label {
+	font-family: Roboto;
+	font-size: 13px;
+	font-weight: 300;
+}
+
+#pac-input {
+	display: inline !important; background-color : #fff;
+	font-family: Roboto;
+	font-size: 1.0rem;
+	font-weight: 600;
+	/* 	margin-left: 12px; */
+	padding: 0 5% 0 10px;
+	text-overflow: ellipsis;
+	width: 75% !important;
+	background-color: #fff;
+}
+
+#pac-input:focus {
+	border-color: #64b39a;
+}
